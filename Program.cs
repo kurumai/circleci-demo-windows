@@ -9,8 +9,6 @@ namespace circleci_demo_windows
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!", Color.Green);
-            Console.WriteLine("Press any key to exit...");
-            Console.ReadKey(true);
         }
     }
 }
