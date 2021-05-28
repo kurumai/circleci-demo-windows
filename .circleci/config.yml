@@ -8,9 +8,8 @@ jobs:
 #    executor:
 #      name: win/vs2019
 #      shell: powershell.exe
-    executor:
-      name: windows-runner
-      shell: powershell.exe
+    machine: true
+    resource_class: kurumai/windows-runner
     steps:
       - checkout
       - restore_cache:
