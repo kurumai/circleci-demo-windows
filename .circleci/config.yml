@@ -11,6 +11,7 @@ jobs:
     machine: true
     resource_class: kurumai/windows-runner
     steps:
+      - run: echo 'hello circleci'
       - checkout
       - restore_cache:
           keys:
